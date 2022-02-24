@@ -29,6 +29,13 @@ const Home: NextPage = () => {
         </Prose>
             
       </div>
+	  
+      <div className="py-8">
+        <Prose>
+          <Minting />
+        </Prose>
+      </div>
+	  
       <div className="bg-gray-800 py-8">
         <Prose>
           <Faq />
